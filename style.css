@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* ----------共通----- */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color: #333333;
+}
+
+body {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+li {
+  list-style: none;
+}
+
+/* ----------fv----- */
+
+.firstview {
+  height: 100vh;
+  background-image: url(./img/fv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ----------description----- */
+
+.description {
+  margin: 85px 0;
+}
+
+/* ----------menu-img----- */
+
+.menu-img {
+  padding: 0;
+  display: flex;
+  max-width: 100vw;
+  margin-bottom: 60px;
+}
+
+.menu-img__list {
+  width: calc(100% / 3);
+}
+
+.menu-img__list img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* ----------button----- */
+
+.button {
+  margin-bottom: 100px;
+}
+
+.viewmore {
+  border: 1px solid #333;
+  padding: 21px 57px;
+}
+
+/* ----------footer----- */
+
+.foot {
+  margin-bottom: 20px;
+}
+
+.sns-link {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sns-link__button {
+  margin-right: 20px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.sns-link__button:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
