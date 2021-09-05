@@ -55,7 +55,7 @@ li {
   width: calc(100% / 3);
 }
 
-.menu-img__list img {
+.menu-img__list--photo {
   width: 100%;
   height: 500px;
   object-fit: cover;
@@ -67,7 +67,7 @@ li {
   margin-bottom: 100px;
 }
 
-.viewmore {
+.button__viewmore {
   border: 1px solid #333;
   padding: 21px 57px;
 }
